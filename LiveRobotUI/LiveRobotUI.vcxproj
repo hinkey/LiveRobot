@@ -38,8 +38,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>.\wtl;F:\CLib\boost_1_55_0_msvc12;$(IncludePath)</IncludePath>
-    <LibraryPath>F:\CLib\boost_1_55_0_msvc12\lib32-msvc-12.0;$(LibraryPath)</LibraryPath>
+    <IncludePath>.\wtl;D:\lib\boost_1_55_0;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Boost\boost_vc_120\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>

@@ -69,8 +69,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(ProjectDir);F:\CLib\boost_1_55_0_msvc12;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)\HPSocket;F:\CLib\boost_1_55_0_msvc12\lib32-msvc-12.0;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir);D:\lib\boost_1_55_0;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\HPSocket;C:\Boost\boost_vc_120\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>

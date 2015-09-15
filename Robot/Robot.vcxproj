@@ -43,7 +43,7 @@
     <IncludePath>F:\CLib\boost_1_55_0_msvc12;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>F:\CLib\boost_1_55_0_msvc12;$(IncludePath)</IncludePath>
+    <IncludePath>D:\lib\boost_1_55_0;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
