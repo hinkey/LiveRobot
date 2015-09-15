@@ -49,6 +49,7 @@ int _tmain(int argc, _TCHAR* argv[])
                 {
                     last_output_time = now;
                     cout << "当前已登录机器人数：" << robot->GetLoggedTotal() << endl;
+
                 }
             }
             cout << "用户终止..." << endl;
