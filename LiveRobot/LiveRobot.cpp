@@ -47,9 +47,17 @@ int _tmain(int argc, _TCHAR* argv[])
                 now = GetTickCount();
                 if (now - last_output_time > 3000)
                 {
-                    last_output_time = now;
-                    cout << "当前已登录机器人数：" << robot->GetLoggedTotal() << endl;
-
+					last_output_time = now;
+					//加入当前时间
+					SYSTEMTIME st = { 0 };
+					GetLocalTime(&st);
+					printf("当前时间:%d-%02d-%02d %02d:%02d:%02d,当前已登录机器人数：%d\n",
+						st.wYear,
+						st.wMonth,
+						st.wDay,
+						st.wHour,
+						st.wMinute,
+						st.wSecond, robot->GetLoggedTotal());
                 }
             }
             cout << "用户终止..." << endl;
